@@ -1406,24 +1406,3 @@ input:checked + .toggle-slider:before { transform: translateX(24px); }
 }
 
 
-
-
-
-/* Remove the default ugly focus outline on buttons/links */
-.Hero .btn button:focus,
-.Hero .btn a:focus,
-.Hero .btn button:focus-visible,
-.Hero .btn a:focus-visible,
-.us1:focus,
-.us:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-/* Optional: keep a subtle, on-brand focus ring for keyboard users only */
-.Hero .btn button:focus-visible,
-.Hero .btn a:focus-visible {
-    outline: 2px solid #dbdbbb;
-    outline-offset: 3px;
-    border-radius: 8px;
-}
